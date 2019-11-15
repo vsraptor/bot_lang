@@ -58,6 +58,7 @@ Syntax is in general :
 	    >>  intent2  > action2, action3; 
 	    
 	 actions|entities|... :  <comma-list>;
+	 slots : name1 { k1 : v1 }, name2 { k2 : v2 };
 
 .... check the examples.
 
