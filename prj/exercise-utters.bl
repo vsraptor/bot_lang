@@ -1,0 +1,5 @@
+say ask_answer: "Type the answer to the question";
+say exercise_submit: "finished";
+say process_answer: "process answer : {answer} <=> {expected_result}";
+say try_again: "Do you want to try again ? try:{try_again_exercise}";
+

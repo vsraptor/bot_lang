@@ -1,0 +1,8 @@
+utter hi  : hi;
+utter hi2 : hi, hello;
+utter hi3 : hi, hi ho;
+utter hi4 : hi, "hello";
+utter hi5 : hi, {text: "howdy", image: "http://test.com"};
+utter hi6 : hey {name}, howdy {name};
+
+

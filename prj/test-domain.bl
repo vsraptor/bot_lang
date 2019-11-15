@@ -1,0 +1,9 @@
+@ comment ....
+slots:
+	code { type: unfeaturized },
+	eval_code { type: unfeaturized },
+   example { type: unfeaturized, auto_fill: false };
+
+actions: action_test, action_abc;
+
+entities: ent1, ent2, ent3;

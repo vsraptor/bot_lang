@@ -1,0 +1,17 @@
+story story1 : int1 > react;
+story story2 : int2 > react, react2;
+story story3 : int3 > react, "msg ...";
+
+story story4 :
+	ping > pong
+>> int2 > react2;
+
+story story5 :
+	int > react, action_boo
+>> int2 > react2, utter_help;
+
+story story-6 :
+	int1 > action1, action2
+>> int3 > action, "hello man", "how are you?"
+>> int5 > boo, hoo, action_greet;
+

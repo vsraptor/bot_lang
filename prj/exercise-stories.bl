@@ -1,0 +1,14 @@
+story exercise :
+ start | affirm{"try_again_exercise": 1} >
+  action_show_example,
+  exercise_form,
+  form{"name": "exercise_form"},
+  utter_process_answer,
+  action_check_answer,
+  form{"name": null},
+  slot{"answer": null, "expected_result": null},
+  slot{"try_again_exercise": 1},
+  utter_try_again;
+
+story exercise-not-again :
+  affirm{"try_again_exercise": null} > test;

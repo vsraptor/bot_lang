@@ -1,0 +1,16 @@
+intent why-1 : why so;
+intent why2 : why so, so what;
+intent why_3 :
+	why the sad face, testing why;
+
+intent boo :
+	booo,
+	hoo, mooo, ooo;
+
+intent str : str, "utterring ...";
+
+intent ano : Some [anotated] text;
+intent ano2 : Some [anotated](ano) text;
+
+intent ano : "String [anotated](ano:type) text", non-anotated;
+

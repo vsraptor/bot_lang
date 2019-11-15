@@ -1,0 +1,16 @@
+actions:
+ action_show_example,
+ action_check_answer,
+ utter_try_again;
+
+entities:
+ answer,
+ expected_result,
+ example,
+ try_again_exercise;
+
+forms: exercise_form;
+
+
+
+

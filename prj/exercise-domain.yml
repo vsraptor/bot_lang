@@ -1,0 +1,20 @@
+intents:
+- start
+entities:
+- answer
+- expected_result
+- example
+- try_again_exercise
+slots:
+  example:
+    type: unfeaturized
+    auto_fill: false
+  answer:
+    type: unfeaturized
+  expected_result:
+    type: unfeaturized
+  try_again_exercise:
+    type: unfeaturized
+
+forms:
+  - exercise_form
